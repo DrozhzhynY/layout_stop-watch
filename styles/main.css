@@ -23,8 +23,8 @@ body {
     height: 240px;
     background-color: #c25d5d;
     border-radius: 5px;
-    -webkit-animation: tic-tac 360s infinite;
-            animation: tic-tac 360s infinite;
+    -webkit-animation: tic-tac 3600s linear infinite;
+            animation: tic-tac 3600s linear infinite;
     transform-origin: top; }
   .stopwatch__seconds {
     position: absolute;
@@ -32,8 +32,8 @@ body {
     height: 350px;
     background-color: #5f98a8;
     border-radius: 5px;
-    -webkit-animation: tic-tac 60s infinite;
-            animation: tic-tac 60s infinite;
+    -webkit-animation: tic-tac 60s linear infinite;
+            animation: tic-tac 60s linear infinite;
     transform-origin: top; }
 
 @-webkit-keyframes tic-tac {
